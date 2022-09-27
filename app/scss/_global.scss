@@ -1,0 +1,55 @@
+html,
+body {
+  min-height: 100vh;
+  background-color: #fcddec;
+  color: $default;
+  margin-bottom: 12px;
+}
+
+.container {
+  min-height: 100vh;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url('../images/bg/first-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12px;
+}
+
+.about__container {
+  min-height: 470px;
+  background-image: none;
+  border-radius: 0%;
+  background-color: #513B46;
+
+}
+
+body {
+  background-color: #fcddec;
+
+}
+
+.order-container {
+  max-width: 385px;
+  max-height: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  padding-top: 20px;
+}
+
+.container-contact {
+  max-height: 100vh;
+  border-radius: 52px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  color: #fff;
+
+}

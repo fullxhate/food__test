@@ -1,0 +1,36 @@
+@font-face {
+  font-family:'Oregano-Regular' , sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  src: local('Oregano-Regular'),
+       url('../fonts/Oregano-Regular.woff2') format('woff2'),       
+       url('../fonts/Oregano-Regular.woff') format('woff');       
+
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Orienta-Regular', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  src: local('Orienta-Regular'),
+    url('../fonts/Orienta-Regular.woff2') format('woff2'),
+    url('../fonts/Orienta-Regular.woff') format('woff');
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Paprika-Regular', cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  src: local('Paprika-Regular'),
+    url('../fonts/Paprika-Regular.woff2') format('woff2'),
+    url('../fonts/Paprika-Regular.woff') format('woff');
+
+  font-display: swap;
+}
+
