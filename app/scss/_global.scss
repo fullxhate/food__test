@@ -3,28 +3,34 @@ body {
   min-height: 100vh;
   background-color: #fcddec;
   color: $default;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .container {
   min-height: 100vh;
-  border-top-left-radius: 52px;
-  border-top-right-radius: 52px;
-  max-width: 1200px;
+  border-top-left-radius: 5.2rem;
+  border-top-right-radius: 5.2rem;
+  max-width: 120rem;
   margin: 0 auto;
   background-color: #fff;
   background-image: url('../images/bg/first-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 12px;
+  padding-top: 1.2rem;
 }
 
 .about__container {
-  min-height: 470px;
+  margin: 0 auto;
+  min-height: 47rem;
   background-image: none;
   border-radius: 0%;
   background-color: #513B46;
+  img {
+      max-width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
 
 }
 
@@ -34,22 +40,23 @@ body {
 }
 
 .order-container {
-  max-width: 385px;
-  max-height: 500px;
+  max-width: 38.5rem;
+  max-height: 50rem;
   margin: 0 auto;
   background-color: #fff;
   display: flex;
-  padding-top: 20px;
+  padding-top: 2rem;
+  
 }
 
 .container-contact {
   max-height: 100vh;
-  border-radius: 52px;
-  max-width: 1200px;
+  border-radius: 5.2rem;
+  max-width: 120rem;
   margin: 0 auto;
   background-color: #000;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
   color: #fff;
 
 }

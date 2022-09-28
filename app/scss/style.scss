@@ -7,41 +7,41 @@
 .header__top {
   &-line {
     background-color: $accent;
-    margin: 0 12px;
-    height: 38px;
-    border-radius: 52px 52px 0px 0px;
+    margin: 0 1.2rem;
+    height: 3.8rem;
+    border-radius: 5.2rem 5.2rem 0  0;
   }
 
   &-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 38px;
+    margin-top: 3.8rem;
     position: relative;
   }
 
   &-menu__list {
     display: flex;
     justify-content: space-between;
-    margin-right: 75px;
-    margin-top: 100px;
+    margin-right: 7.5rem;
+    margin-top: 10rem;
   }
 
   &-menu__list-item {
-    margin-left: 70px;
+    margin-left: 7rem;
   }
 
   &-menu__list-link {
     color: $default;
-    font-size: 25px;
-    line-height: 55px;
-    letter-spacing: 2px;
-    padding: 10px;
+    font-size: 2.5rem;
+    line-height: 5.5rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
     @extend %paprika-400;
 
     &:hover {
       background-color: $accent;
-      border-radius: 10px;
+      border-radius: 1rem;
     }
   }
 
@@ -51,20 +51,20 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 73px;
-  margin-top: 70px;
+  margin-right: 7.3rem;
+  margin-top: 7rem;
 
   &__link {
-    margin-left: 30px;
+    margin-left: 3rem;
   }
 }
 
 .search {
   display: flex;
-  margin-left: 50px;
-  border: 1px solid #000;
-  border-radius: 10px;
-  max-width: 540px;
+  margin-left: 5rem;
+  border: 0.1rem solid #000;
+  border-radius: 1rem;
+  max-width: 54rem;
   background-color: rgba(252, 221, 236, 0.36);
 
   &__button {
@@ -73,21 +73,21 @@
   }
 
   &__input {
-    font-size: 17px;
-    line-height: 38px;
-    letter-spacing: 2px;
+    font-size: 1.7rem;
+    line-height: 3.8rem;
+    letter-spacing: 0.2rem;
     color: rgba(0, 0, 0, 0.49);
     @extend %paprika-400;
     border: none;
     background-color: transparent;
-    margin-left: 35px;
+    margin-left: 3.5rem;
 
   }
 }
 
 .welcome__page {
   display: flex;
-  margin-top: 40px;
+  margin-top: 4rem;
 
   &-login {
     display: flex;
@@ -95,16 +95,16 @@
   }
 
   &-title {
-    font-size: 50px;
-    line-height: 98px;
+    font-size: 5rem;
+    line-height: 9.8rem;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     color: $default;
-    text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0.2rem 1rem 0.4rem rgba(0, 0, 0, 0.3);
     @extend %oregano-400;
-    max-width: 460px;
-    padding-top: 60px;
-    margin: 30px;
+    max-width: 46rem;
+    padding-top: 6rem;
+    margin: 3rem;
   }
 
   &-start {
@@ -114,29 +114,29 @@
   }
 
   &-link {
-    padding: 20px 10px;
-    font-size: 30px;
-    line-height: 59px;
-    letter-spacing: 1px;
+    padding: 2rem 1rem;
+    font-size: 3rem;
+    line-height: 5.9rem;
+    letter-spacing: 0.1rem;
     text-align: center;
     color: $default;
     @extend %orienta-400;
     background-color: rgba(115, 151, 244, 0.37);
-    margin-right: 25px;
-    border-radius: 10px;
-    margin-top: 7px;
+    margin-right: 2.5rem;
+    border-radius: 1rem;
+    margin-top: 0.7rem;
 
     &:hover {
       background-color: $accent;
-      margin-right: 25px;
-      border-radius: 10px;
+      margin-right: 2.5rem;
+      border-radius: 1rem;
     }
 
   }
 
   &-images {
-    margin-right: 22px;
-    margin-bottom: 100px;
+    margin-right: 2.2rem;
+    margin-bottom: 10rem;
   }
 }
 
@@ -145,9 +145,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 70px;
-    padding-top: 50px;
-    margin-right: 70px;
+    margin-left: 7rem;
+    padding-top: 5rem;
+    margin-right: 7rem;
 
   }
 
@@ -155,24 +155,24 @@
   &__text {
     display: flex;
     justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 6rem;
+    margin-right: 6rem;
     margin-bottom: 0;
   }
 
   &__title {
-    font-size: 50px;
-    line-height: 98px;
-    letter-spacing: 1px;
+    font-size: 5rem;
+    line-height: 9.8rem;
+    letter-spacing: 0.1rem;
     color: #b9f8f4;
     @extend %oregano-400;
-    max-width: 330px;
+    max-width: 33rem;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
   }
 
   &__title--other {
-    line-height: 48px;
+    line-height: 4.8rem;
   }
 
 
@@ -187,27 +187,27 @@
 
 
   &__application-title {
-    font-size: 80px;
-    line-height: 156px;
+    font-size: 8rem;
+    line-height: 15.6rem;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     color: $default;
     @extend %oregano-400;
-    text-shadow: 50px 50px 38px rgba(0, 0, 0, 0.25);
-    max-width: 430px;
-    margin-left: 100px;
+    text-shadow: 5rem 5rem 3.8rem rgba(0, 0, 0, 0.25);
+    max-width: 43rem;
+    margin-left: 10rem;
 
   }
 
   &__application-right {
-    margin-left: -150px;
+    margin-left: -15rem;
   }
 
   &__application-display {
     display: flex;
     flex-direction: column;
-    margin-right: 135px;
-    min-width: 415px;
+    margin-right: 13.5rem;
+    min-width: 41.5rem;
     background-color: #fff;
   }
 
@@ -218,8 +218,8 @@
   }
 
   &__application-display__title {
-    font-size: 18px;
-    line-height: 39px;
+    font-size: 1.8rem;
+    line-height: 3.9rem;
     color: $default;
     @extend %paprika-400;
     position: relative;
@@ -227,8 +227,10 @@
     &::before {
       content: url('../images/icons/knife1.svg');
       position: absolute;
-      top: 5px;
-      left: -25px;
+      top: 0.5rem;
+      left: -2.5rem;
+      max-width: 100%;
+      
 
     }
 
@@ -237,40 +239,40 @@
 
 
   &__application-display__text {
-    font-size: 12px;
-    line-height: 27px;
+    font-size: 1.2rem;
+    line-height: 2.7rem;
     color: rgba(0, 0, 0, 0.49);
     @extend %paprika-400;
-    margin-bottom: 23px;
+    margin-bottom: 2.3rem;
   }
 
   &__application-item {
     display: flex;
     align-content: center;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 
   &__application-box {
-    max-width: 65px;
-    height: 105;
+    max-width: 6.5rem;
+    height: 10.5rem;
     position: relative;
-    margin-right: 13px;
+    margin-right: 1.3rem;
 
     &::before {
       content: "60% OFF";
-      font-size: 10px;
+      font-size: 1rem;
       color: $bg;
-      line-height: 22px;
+      line-height: 2.2rem;
       @extend %paprika-400;
-      bottom: 16px;
-      padding: 2px 9px 2px 9px;
+      bottom: 1.6rem;
+      padding: 0.2rem 0.9rem 0.2rem 0.9rem;
       background-color: $accent;
-      border-radius: 7px;
+      border-radius: 0.7rem;
       position: absolute;
-      left: 15px;
-      min-width: 70px;
-      margin-right: 13px;
+      left: 1.5rem;
+      min-width: 7rem;
+      margin-right: 1.3rem;
 
     }
 
@@ -278,8 +280,8 @@
   }
 
   &__application-img {
-    max-width: 68px;
-    height: 105px;
+    max-width: 6.8rem;
+    height: 10.5rem;
   }
 
   &__application-info {
@@ -289,8 +291,8 @@
   }
 
   &__application-name {
-    font-size: 13px;
-    line-height: 28px;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
     color: $default;
     @extend %paprika-400;
 
@@ -298,8 +300,8 @@
 
   .star {
 
-    margin-right: 15px;
-    border-radius: 7px;
+    margin-right: 1.5rem;
+    border-radius: 0.7rem;
 
     .p {
       position: absolute;
@@ -307,13 +309,13 @@
   }
 
   &__application-offer {
-    padding: 2px 5px 2px 5px;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
     color: #fff;
-    font-size: 7px;
-    line-height: 15px;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
     @extend %paprika-400;
     background-color: $accent;
-    border-radius: 6px;
+    border-radius: 0.6rem;
 
 
   }
@@ -321,15 +323,15 @@
   .jq-ry-container::after {
     content: "4.2";
     position: absolute;
-    top: -6px;
-    right: -17px;
-    padding: 2px 10px 2px 10px;
+    top: -0.6rem;
+    right: -1.7rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
     color: #fff;
-    font-size: 7px;
-    line-height: 15px;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
     @extend %paprika-400;
     background-color: $accent;
-    border-radius: 6px;
+    border-radius: 0.6rem;
 
   }
 
@@ -337,21 +339,21 @@
   &__application-selection {
     display: flex;
     flex-direction: column;
-    font-size: 9px;
-    line-height: 15px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     @extend %paprika-400;
     color: rgba(0, 0, 0, 0.49);
-    border-bottom: 1px solid #828282;
-    margin-bottom: 7px;
+    border-bottom: 0.1rem solid #828282;
+    margin-bottom: 0.7rem;
 
     span {
       color: #000;
-      margin-bottom: 7px;
-      margin-top: 7px;
+      margin-bottom: 0.7rem;
+      margin-top: 0.7rem;
     }
 
     p {
-      margin-top: 7px;
+      margin-top: 0.7rem;
     }
 
   }
@@ -362,11 +364,11 @@
   }
 
   &__application-link {
-    font-size: 11px;
-    line-height: 24px;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
     color: rgba(0, 0, 0, 0.7);
     @extend %paprika-400;
-    margin-left: 7px;
+    margin-left: 0.7rem;
   }
 
   &__application-item--bottom {
@@ -378,42 +380,42 @@
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-    padding: 10px 15px 10px 15px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     background-image: url('../images/app/bg.png');
     background-position: center top;
     background-repeat: no-repeat;
-    margin-bottom: 10px;
-    top: 65px;
+    margin-bottom: 1rem;
+    top: 6.5rem;
   }
 
   &__application-bottom__link {
-    margin-right: 16px;
-    margin-top: 5px;
+    margin-right: 1.6rem;
+    margin-top: 0.5rem;
 
   }
 
   &__application-bottom__link--logo {
-    max-width: 70px;
-    height: 45px;
+    max-width: 7rem;
+    height: 4.5rem;
 
   }
 
   &-cart {
     display: flex;
-    margin-left: 90px;
+    margin-left: 9rem;
 
 
 
   }
 
   &-screen {
-    min-width: 410px;
+    min-width: 41rem;
     background-color: #fff;
   }
 
   &-screen__header {
     background-color: #000;
-    height: 24px;
+    height: 2.4rem;
 
 
   }
@@ -424,7 +426,7 @@
     align-items: center;
 
     img {
-      margin-left: 15px;
+      margin-left: 1.5rem;
     }
   }
 
@@ -441,43 +443,43 @@
   &-screen__center-top {
     display: flex;
     align-items: center;
-    margin-top: 14px;
+    margin-top: 1.4rem;
   }
 
   &-screen__logo {
-    max-width: 70px;
-    margin-right: 80px;
+    max-width: 7rem;
+    margin-right: 8rem;
   }
 
   &-screen__center-title {
-    font-size: 18px;
-    line-height: 38px;
+    font-size: 1.8rem;
+    line-height: 3.8rem;
     color: #000;
     @extend %paprika-400;
-    padding: 10px 14px;
+    padding: 1rem 1.4rem;
     background-color: $accent;
-    border-radius: 10px;
+    border-radius: 1rem;
   }
 
   &-screen__center-bottom {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #828282;
+    border-bottom: 0.1rem solid #828282;
     background-color: #fff;
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 
     p {
-      font-size: 14px;
-      line-height: 39px;
+      font-size: 1.4rem;
+      line-height: 3.9rem;
       @extend %paprika-400;
       color: $accent;
-      margin-left: 25px;
+      margin-left: 2.5rem;
       background-color: #fff;
     }
 
     span {
-      font-size: 12px;
-      line-height: 27px;
+      font-size: 1.2rem;
+      line-height: 2.7rem;
       color: rgba(0, 0, 0, 0.49);
       @extend %paprika-400;
 
@@ -489,27 +491,27 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 
   &-screen__name {
     @extend %paprika-400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 
   &-screen__service {
-    font-size: 6px;
-    line-height: 13px;
+    font-size: 0.6rem;
+    line-height: 1.3rem;
     color: rgba(0, 0, 0, 0.75);
     @extend %paprika-400;
   }
 
   &-screen__position {
     color: #23722A;
-    font-size: 12px;
-    line-height: 14px;
-    padding: 4px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 0.4rem;
     background-color: $bg;
     border-radius: 50%;
 
@@ -517,16 +519,16 @@
 
   &-cart__link {
     display: block;
-    margin-left: 125px;
+    margin-left: 12.5rem;
   }
 
   &-cart__link-title {
-    font-size: 27px;
-    line-height: 60px;
+    font-size: 2.7rem;
+    line-height: 6rem;
     color: #000;
     @extend %paprika-400;
-    max-width: 550px;
-    margin-top: 70px;
+    max-width: 55rem;
+    margin-top: 7rem;
   }
 
   &-cart__links {
@@ -535,90 +537,90 @@
   }
 
   &-cart__link-app {
-    min-width: 253px;
+    min-width: 25.3rem;
     background-color: #000;
     color: #fff;
-    padding: 25px;
-    border-radius: 10px;
-    margin-right: 25px;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin-right: 2.5rem;
     text-align: center;
-    margin-bottom: 235px;
-    margin-top: 60px;
+    margin-bottom: 23.5rem;
+    margin-top: 6rem;
     position: relative;
 
     &::before {
       content: url('../images/app/playstore.png');
       position: absolute;
-      top: 40px;
+      top: 4rem;
       left: 0;
     }
 
 
 
     p {
-      font-size: 28px;
-      line-height: 39px;
+      font-size: 2.8rem;
+      line-height: 3.9rem;
 
     }
 
     span {
-      font-size: 22px;
-      line-height: 43px;
+      font-size: 2.2rem;
+      line-height: 4.3rem;
       text-transform: uppercase;
     }
   }
 
   &-cart__link-apple {
-    min-width: 253px;
+    min-width: 25.3rem;
     background-color: #000;
     color: #fff;
-    padding: 25px;
-    border-radius: 10px;
-    margin-right: 25px;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin-right: 2.5rem;
     text-align: center;
-    margin-bottom: 235px;
-    margin-top: 60px;
+    margin-bottom: 23.5rem;
+    margin-top: 6rem;
     position: relative;
 
     &::before {
       content: url('../images/app/apple.png');
       position: absolute;
-      top: 40px;
+      top: 4rem;
       left: 0;
     }
 
 
 
     p {
-      font-size: 28px;
-      line-height: 39px;
+      font-size: 2.8rem;
+      line-height: 3.9rem;
 
     }
 
     span {
-      font-size: 22px;
-      line-height: 43px;
+      font-size: 2.2rem;
+      line-height: 4.3rem;
       text-transform: uppercase;
     }
   }
 
   &__billing {
     display: block;
-    border-top: 1px solid #828282;
-    margin-top: 20px;
+    border-top: 0.1rem solid #828282;
+    margin-top: 2rem;
   }
 
   &__billing-free {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2rem;
 
   }
 
   &__free {
-    font-size: 15px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 3.2rem;
     color: #000;
     @extend %paprika-400;
 
@@ -633,13 +635,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    border-bottom: 1px solid #828282;
+    margin-top: 2rem;
+    border-bottom: 0.1rem solid #828282;
   }
 
   &__billing-sale {
-    font-size: 15px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 3.2rem;
     color: #828282;
     @extend %paprika-400;
   }
@@ -649,7 +651,7 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 20px;
+    margin-top: 2rem;
     background-color: transparent;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(254, 202, 227, 0.34) 100%);
   }
@@ -657,8 +659,8 @@
   &__amount {
     color: #828282;
     @extend %paprika-400;
-    font-size: 15px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 3.2rem;
 
   }
 
@@ -682,18 +684,18 @@
   }
 
   &-company__title {
-    font-size: 24px;
-    line-height: 53px;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
     color: #817A7A;
   }
 
   &-company__list {
-    margin-top: 30px;
+    margin-top: 3rem;
   }
 
   &-company__list-link {
-    font-size: 24px;
-    line-height: 53px;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
     color: #fff;
   }
 
@@ -702,65 +704,65 @@
   }
 
   &-support__title {
-    font-size: 24px;
-    line-height: 53px;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
     color: #817A7A;
   }
 
   &-support__list {
-    margin-top: 30px;
+    margin-top: 3rem;
 
   }
 
   &-support__list-link {
-    font-size: 24px;
-    line-height: 53px;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
     color: #fff;
   }
 
   &-legal {
     display: block;
-    margin-right: 30px;
+    margin-right: 3rem;
   }
 
   &-legal__title {
-    font-size: 24px;
-    line-height: 53px;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
     color: #817A7A;
   }
 
   &-legal__list {
-    margin-top: 30px;
+    margin-top: 3rem;
 
   }
 
   &-legal__list-link {
-    font-size: 24px;
-    line-height: 53px;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
     color: #fff;
   }
 
   &-app {
     display: flex;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
   }
 
   &-app__google {
-    padding: 20px;
-    padding-left: 50px;
-    border: 1px solid #fff;
+    padding: 2rem;
+    padding-left: 5rem;
+    border: 0.1rem solid #fff;
     color: #fff;
-    border-radius: 10px;
-    margin-right: 25px;
+    border-radius: 1rem;
+    margin-right: 2.5rem;
     position: relative;
 
 
     &::before {
       content: url('../images/app/playstore.png');
       position: absolute;
-      left: 0px;
-      top: 10px;
+      left: 0 ;
+      top: 1rem;
     }
   }
 
@@ -769,18 +771,18 @@
   }
 
   &-app__apple {
-    padding: 20px;
-    padding-left: 50px;
-    border: 1px solid #fff;
+    padding: 2rem;
+    padding-left: 5rem;
+    border: 0.1rem solid #fff;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 1rem;
     position: relative;
 
     &::before {
       content: url('../images/app/apple.png');
       position: absolute;
       left: 0;
-      top: 10px;
+      top: 1rem;
     }
   }
 
@@ -788,20 +790,20 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-top: 2px solid #828282;
-    padding-top: 70px;
+    border-top: 0.2rem solid #828282;
+    padding-top: 7rem;
   }
 
   &-bottom__text {
-    font-size: 32px;
-    line-height: 75px;
+    font-size: 3.2rem;
+    line-height: 7.5rem;
     position: relative;
 
     &::before {
       position: absolute;
       content: url('../images/app/c.png');
-      left: -30px;
-      top: 2px;
+      left: -3rem;
+      top: 0.2rem;
     }
 
   }
@@ -810,12 +812,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 205px;
-    margin-right: 120px;
+    margin-left: 20.5rem;
+    margin-right: 12rem;
   }
 
   &-bottom__social-link {
-    margin-right: 20px;
+    margin-right: 2rem;
 
     svg {
       path {
@@ -825,3 +827,4 @@
   }
 
 }
+@import 'media';
