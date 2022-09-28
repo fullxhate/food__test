@@ -549,10 +549,12 @@
     position: relative;
 
     &::before {
-      content: url('../images/app/playstore.png');
+      content:"" ;
+      background: url('../images/app/playstore.png');
       position: absolute;
       top: 4rem;
       left: 0;
+      max-width: 100%;
     }
 
 
